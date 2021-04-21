@@ -1,0 +1,64 @@
+body {
+    background-color: #74ACDF;
+}
+
+.contquote {
+    margin-top: 25vh;
+    margin-bottom: auto;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.titulo {
+    margin-bottom: 3rem;
+}
+
+.titulo::before {
+    content: " 🇦🇷 ";
+}
+
+.titulo::after {
+    content: " 🇦🇷 ";
+}
+
+#frase {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#autor {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+#frase::before {
+    content: " ❝ ";
+}
+
+#frase::after {
+    content: " ❞ ";
+}
+
+.autor::before {
+    content: "-";
+}
+
+.autor::after {
+    content: "-";
+}
+
+@media (max-width: 580px) {
+    .card {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+
+/*@media (max-height: 900px) {
+    .contquote {
+        margin-top: 25vh;
+    }
+}*/
