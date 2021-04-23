@@ -13,7 +13,7 @@ const quotes = [
         autor: "Los Redondos"
     },
     {
-        quote: "Caen las tropas de su majestad, y cae el norte de la Italia rica.",
+        quote: "Y como vos no hay ninguna, no brilla tanto la luna.",
         autor: "Los Piojos"
     },
     {
@@ -168,6 +168,174 @@ const quotes = [
         quote: "Quiero ser lo que te hace más feliz, a mi me gusta verte así...",
         autor: "Gustavo Cerati"
     },
+    {
+        quote: "No nos dimos nada mas, solo un buen gesto.",
+        autor: "Los Redondos"
+    },
+    {
+        quote: "Aunque no te haya hecho bien, a mi manera te amé.",
+        autor: "Estelares"
+    },
+    {
+        quote: "Como si fuera facil, dominar mi sentir...",
+        autor: "Attaque 77"
+    },
+
+    {
+        quote: "Quiero intoxicarme en vos.",
+        autor: "Attaque 77"
+    },
+
+    {
+        quote: "Da pánico estar vulnerable, nunca nadie me sonrió así.",
+        autor: "Las Pastillas del Abuelo"
+    },
+
+    {
+        quote: "Hasta la próxima vez, mi viejo karma.",
+        autor: "Las Pastillas del Abuelo"
+    },
+
+    {
+        quote: "Un error, otro error, no aprendí la lección.",
+        autor: "Guasones"
+    },
+
+    {
+        quote: "Tengo que aprender a fingir mas, y a no mostrar lo que siento.",
+        autor: "Babasonicos"
+    },
+
+    {
+        quote: "Debo saber si en verdad, en algun lado estas...",
+        autor: "Rata Blanca"
+    },
+
+    {
+        quote: "Que otra cosa puedo hacer? Si no olvido moriré.",
+        autor: "Gustavo Cerati"
+    },
+
+    {
+        quote: "Y en la soledad, no había nada que perder.",
+        autor: "Cuentos Borgeanos"
+    },
+
+    {
+        quote: "Cada dia es un paso, para entender que hay un respiro en el amor.",
+        autor: "Cuentos Borgeanos"
+    },
+
+    {
+        quote: "Somos la ausente eternindad.",
+        autor: "Cuentos Borgeanos"
+    },
+
+    {
+        quote: "Y en el centro de la estatua del dolor me sentí parado.",
+        autor: "Guasones"
+    },
+
+    {
+        quote: "Giles son los que sobran.",
+        autor: "Callejeros"
+    },
+    {
+        quote: "Ruidos de melancolía que esperan que ella vuelva.",
+        autor: "Los Tipitos"
+    },
+    {
+        quote: "De repente no puedo respirar, necesito un poco de libertad.",
+        autor: "Los Auténticos Decadentes"
+    },
+    {
+        quote: "Al ratito ya te empiezo a extrañar, me preocupa que te pueda perder.",
+        autor: "Los Auténticos Decadentes"
+    },
+    {
+        quote: "No quiero soñar mil veces las mismas cosas.",
+        autor: "Soda Stereo"
+    },
+    {
+        quote: "Quiero que me trates suavemente.",
+        autor: "Soda Stereo"
+    },
+    {
+        quote: "Sofocado por el sueño y la presión, busco un cuerpo para amar.",
+        autor: "Virus"
+    },
+    {
+        quote: "Me puedo estimular con música y alcohol, pero me excito más cuando es con vos.",
+        autor: "Virus"
+    },
+    {
+        quote: "Tu egoísmo y tu soledad son estrellas en la noche de la mediocridad.",
+        autor: "Los Auténticos Decadentes"
+    },
+    {
+        quote: "Quizas porque soy un mal negociante no pido nada a cambio de darte lo que poco que tengo.",
+        autor: "Sui Generis"
+    },
+    {
+        quote: "Esquivas a tu corazón y destrozas tu cabeza.",
+        autor: "Serú Girán"
+    },
+    {
+        quote: "Si estas oculta, ¿Como sabré quien eres?",
+        autor: "Soda Stereo"
+    },
+    {
+        quote: "Mi casa es un desastre, mi vida un poco más.",
+        autor: "Tan Bionica"
+    },
+    {
+        quote: "Que caros son los precios del amor",
+        autor: "Tan Bionica"
+    },
+    {
+        quote: "Creo que el olvido es una fantasía",
+        autor: "Tan Bionica"
+    },
+    {
+        quote: "Sigo loco como siempre, inventando lo que sea para verte",
+        autor: "Tan Bionica"
+    },
+    {
+        quote: "La cocaína seca las lágrimas, y es el combustible del huracán.",
+        autor: "Tan Bionica"
+    },
+    {
+        quote: "Deja que lloren tus ojos corazón, que tu tristeza es el sol de mi ciudad.",
+        autor: "Tan Bionica"
+    },
+    {
+        quote: "Y cuento las horas que no pasé a tu lado",
+        autor: "Babasonicos"
+    },
+    {
+        quote: "Esto me tiene harto hasta el punto mismo de odiarte y sonreír a la vez",
+        autor: "Babasonicos"
+    },
+    {
+        quote: "Que decis que no vas a mentir, si te encanta.",
+        autor: "Turf"
+    },
+    {
+        quote: "Siento el fulgor y quiero entrar",
+        autor: "Babasonicos"
+    },
+    {
+        quote: "Poco a poco, fuimos volviendonos locos.",
+        autor: "Babasonicos"
+    },
+    {
+        quote: "Fuimos presos de un impulso, yo solo buscaba amor.",
+        autor: "Attaque 77"
+    },
+    {
+        quote: "Ella es angel, tiene la llave que devuelve la ilusión.",
+        autor: "Rata Blanca"
+    }
 
 ];
 
@@ -185,5 +353,12 @@ button.addEventListener('click', () => {
     //mostrar
     document.getElementById("frase").innerText = quotes[random].quote;
     document.getElementById("autor").innerText = quotes[random].autor;
+    button.innerText = "Otra Frase";
 
 });
+
+
+//contador
+let contador = quotes.length;
+
+console.log("las frases son " + contador);
